@@ -11,6 +11,9 @@ export default function PageFooter({ lastUpdated }: PageFooterProps) {
           Last updated: {new Date(lastUpdated).toLocaleString()}
         </p>
       )}
+      <p className="mt-4 text-gray-500">
+        © 2025 Godel Technologies. All rights reserved.
+      </p>
     </div>
   );
 }
